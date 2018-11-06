@@ -17,8 +17,8 @@ tasks:
       - yarn
     args:
       - test
-security:
-  image: allthings/nsp
+  security:
+    image: allthings/nsp
 workflow:
   - install
   - sail:parallel:
