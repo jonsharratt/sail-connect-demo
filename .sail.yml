@@ -1,5 +1,5 @@
 tasks:
-  build:
+  install:
     image: node:carbon
     command:
       - yarn
