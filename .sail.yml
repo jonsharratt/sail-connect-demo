@@ -1,1 +1,14 @@
-asdas
+tasks:
+  install:
+    image: "node:boron-alpine"
+    command: ["npm"]
+args: ["i"]
+  lint:
+    image: "node:boron-alpine"
+    command: ["npm"]
+    args: ["run", "lint"]
+  test: image: "node:boron-alpine"
+    command: ["npm"]
+    args: ["run", "test"]
+  security:
+    image: "allthings/nsp"
